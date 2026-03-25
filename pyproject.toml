@@ -6,3 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "eduentry-utils"
 version = "0.0.1"
 requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["eduentry_utils*"]
